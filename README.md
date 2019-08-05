@@ -1,0 +1,2 @@
+# Spatialitics
+Spatialitics website
