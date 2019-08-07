@@ -1,0 +1,330 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+/* navbar */
+.c-navbar{
+  box-shadow: 0 3px 15px #000;
+}
+.c-nav-link{
+  color: #156484 !important;
+  font-weight: 400;
+}
+
+.c-border-bottom, .c-border-bottom1{
+  border-bottom: 1px solid #dfdfdf;
+}
+.c-btn1{
+  border-radius: 0;
+  background-color: #ff8400;
+  border: 1px solid #ff8400;
+  font-size: 0.85rem;
+}
+.c-btn1:hover{
+  background-color:#156484;
+  border: 1px solid #156484; 
+}
+.c-drop-down-box{
+  border: none;
+  border-radius: 0;
+}
+
+@media (min-width: 992px) {
+  .c-drop-down-box{
+     box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.3);
+      right: auto;
+    left: 50%;
+   -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .c-border-bottom{
+    border-bottom: none;
+  }
+  
+ 
+  }
+/* end of navbar */
+
+/* carousel */
+.c-mt{
+  margin-top: 84px;
+}
+.c-border-left{
+  border-left: 2px solid #90af17;
+}
+.c-carousel-caption{
+  top:100px;
+  bottom: auto;
+  max-width: 100%;
+  width:100%;
+  left: 0;
+}
+.c-btn2{
+  border-radius: 0;
+  background-color:transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.25rem;
+  transition: all 0.4s;
+}
+.c-btn2:hover{
+  background-color:#fff;
+  color: #156484;
+}
+.c-indicator{
+  margin-bottom: 2rem;
+}
+.c-indicator li{
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  margin: 0 6px;
+}
+.c-indicator .active{
+  background-color: rgba(255, 255, 255, 1.0);
+  
+}
+/* end of carousel */
+
+/* product section */
+
+.c-health-bg{
+  background:linear-gradient(rgba(0, 49, 70, 0.8), rgba(0, 32, 47, 0.9)), url(../images/Map-bg.png);
+}
+.c-public-safety-bg{
+  background-color: #1e3239;
+}
+.c-utilities-bg{
+  background-color: #2b4a53;
+}
+.c-industrial-data-bg{
+  background-color: #3f4c59;
+}
+/* end of product section */
+
+
+/* update section */
+.c-bg1{
+  background: url(../images/Vector-QuickLinks-bg.svg) no-repeat;
+  background-size:cover; 
+}
+  .c-full-width{
+    padding-left: 0;
+    padding-right: 0;
+  }
+ .c-indicator1{
+  justify-content: flex-end;
+  margin-right: 0;
+  top: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+ }
+ .c-indicator1 li{
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+  margin: 0 6px;
+ }
+ .c-indicator1 .active{
+  background-color: rgba(255, 255, 255, 1.0);
+}
+.c-carousel-caption1{
+    top: auto;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+    padding-bottom: 15px;
+}
+@media (max-width: 992px) {
+  .c-w-100{
+    width: 100%;
+  }
+  .c-min-height{
+   min-height: 322px;;
+  }
+  .c-max-height{
+    max-height: 330px;
+  }
+}
+/* .carousel-item{
+  height: 322px;
+} */
+
+
+.c-text-black{
+  color: #000;
+}
+.c-section-title, .c-section-title1{
+  position:absolute;
+ 
+  height:2px;
+ 
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  transform:translateX(-50%);
+  background-color:#90af17;
+  line-height: 10px
+}
+.c-section-title{
+  top: 52%;
+  width:80px;
+}
+.c-section-title1{
+  top: 58%;
+  width:50px;
+}
+@media (max-width: 992px) {
+  .c-section-title{
+    top: 60%;
+  }
+
+}
+/* end of update section */
+
+
+/* whats new section */
+.c-two-colors-bg{
+  background: rgb(5,53,77);
+  background: linear-gradient(180deg, rgba(5,53,77,1) 50%, rgba(240,239,246,1) 50%);
+}
+.c-whatsnew-height{
+  min-height: 300px;
+}
+.c-card-height{
+  min-height: 150px;
+}
+.owl-dots{
+  margin-top: 20px !important;
+}
+.c-indicator2{
+  position: relative;
+    top: 20px;
+ }
+ .c-indicator2 li{
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  background-color: rgba(27, 114, 155, 0.4);
+  opacity: 1;
+  margin: 0 6px;
+ }
+ .c-indicator2 .active{
+  background-color: rgba(27, 114, 155, 1.0);
+}
+ /* end of whats new section */
+
+/* form section */
+
+  .c-form-section{
+    background: rgb(5,53,77);
+    background: linear-gradient(90deg, rgba(5,53,77,1) 0%, rgba(4,129,196,1) 35%, rgba(94,183,176,1) 100%);
+  }
+  .c-form-text1{
+    font-size: 1.2rem;
+  }
+  .c-btn4{
+    border-radius: 0;
+    background-color:transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 7px 30px;
+    display: block;
+    transition: all 0.4s;
+  }
+.c-text-field{
+  border-radius: 0;
+  border: none;
+}
+/* end of form section */
+
+
+/* footer section */
+  .c-footer-bg{
+    background-color: #222222;
+  }
+  .c-text-grey{
+    color: #aaaaaa;
+  }
+  .c-border-bottom2{
+    border-bottom: 1px solid #616161;
+  }
+  .c-footer-links > li > a:hover{
+    text-decoration: none;
+    color:#fff;
+  }
+  .c-border-top1
+  {
+    border-top: 1px solid #333333;
+  }
+  .c-text-grey2{
+    color: #8c8c8c;
+  }
+  .c-term-con:hover{
+    color: #fff;
+  }
+/* end of footer section */
+
+
+
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+
+
+.c-bg2 {
+  background-position: left center;
+}
+
+@media (max-width: 1200px) {
+  .c-img1{
+    width: 520px;
+  }
+  .c-tablet {
+    top: 280px;
+  }
+  .c-bg2{
+    background-position: -250px;
+  }
+}
+@media (max-width: 768px){
+  .c-bg2{
+    background-position: -440px;
+  }
+}

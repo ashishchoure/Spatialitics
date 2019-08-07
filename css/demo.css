@@ -1,0 +1,51 @@
+/* header */
+
+header {
+    height: 100vh;
+    background:url(../images/header-banner-img-1_2.jpg) no-repeat center center /cover;
+  }
+  
+  /* banner */
+  .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  
+  .banner-heading {
+    animation-name: anim;
+    animation-duration: 2s;
+  }
+  
+  .banner-par {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes anim {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  /* end of banner */
+  
+  /* end of header */
+  .c-drop-down-box1{
+    border: none;
+    box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+    right: auto;
+    left: 50%;
+   -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
